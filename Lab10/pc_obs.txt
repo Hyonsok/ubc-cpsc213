@@ -1,0 +1,32 @@
+mutex and semaphores are used as synchronization primitives.
+In the case of mutex, only the thread that locked or acquired the mutex can unlock it. 
+In the case of a semaphore, a thread waiting on a semaphore can be signaled by a different thread.
+
+
+The result of pc_mutex_cond:
+Items value histogram:
+item = 0, 27 times
+item = 1, 70 times
+item = 2, 64 times
+item = 3, 44 times
+item = 4, 58 times
+item = 5, 61 times
+item = 6, 51 times
+item = 7, 72 times
+item = 8, 115 times
+item = 9, 153 times
+item = 10, 85 times
+
+The result of pc_sem:
+Items value histogram:
+item = 0, 2 times
+item = 1, 7 times
+item = 2, 25 times
+item = 3, 49 times
+item = 4, 55 times
+item = 5, 69 times
+item = 6, 115 times
+item = 7, 144 times
+item = 8, 164 times
+item = 9, 131 times
+item = 10, 39 times

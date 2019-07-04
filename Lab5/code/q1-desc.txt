@@ -1,0 +1,13 @@
+IN READING MEM: 
+first line(3): a, a->x, a->x[i]
+second line(1):  a->b.y[i]
+third line(3): a->b.a, a->b.a->x, a->b.a->x[i]
+fourth line(0): NO READ
+fifth line(1): a->b.a->b.y[i]
+
+IN WRITING MEM:
+first line (1): v0
+second line(1): v1
+third line(1): v2
+fourth line(1): a->b.a
+fifth line(1): v3

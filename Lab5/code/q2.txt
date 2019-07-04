@@ -1,0 +1,1 @@
+There is a dangling pointer in pop when e is freed. 

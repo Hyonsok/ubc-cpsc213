@@ -1,0 +1,26 @@
+./sRead 10:
+207
+real 0m0.116s
+
+
+./sRead 100:
+1644
+real 0m1.105s
+
+./sRead 1000:
+16193
+real 0m10.999s
+
+
+./aRead 10:
+real 0m0.014s
+
+./aRead 100:
+real 0m0.015s
+
+./aRead 1000:
+real 0m0.016s
+
+The difference in time occurs between aRead and sRead is the CPU fetching the data. 
+While sRead is read, the CPU waits for disk to transfer the data, however, 
+while aRead is read, the CPU was idle waiting and get interrupted from PIO. 

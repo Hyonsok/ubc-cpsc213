@@ -1,0 +1,22 @@
+In traffic_sem.c, times with car going to the direction more densed,compared to traffic.c
+For example, in the result of traffic_sem.c, 
+Times with 1 car going north: 357
+Times with 1 car going north: 333
+Times with 1 car going north: 310
+Times with 1 car going south: 357
+Times with 1 car going south: 334
+Times with 1 car going south: 310
+
+In the result of traffic.c
+
+Times with 1 car going north: 226
+Times with 1 car going north: 402
+Times with 1 car going north: 332
+Times with 1 car going south: 227
+Times with 1 car going south: 398
+Times with 1 car going south: 357
+
+I have requirements that a given resource can be used by N different threads concurrently at the same time.
+A shared semaphore initialized to N will do the job.
+However, a mutex will not be sufficient since it allows at most 1 thread to execute the critical section at any given time.
+That is why the above results are given.

@@ -1,0 +1,3 @@
+9EFEFE9E
+
+After 0x, if the two bits of the begining are the same at the last 2bits, it is palindrome.

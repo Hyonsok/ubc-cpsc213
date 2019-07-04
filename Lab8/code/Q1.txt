@@ -1,0 +1,15 @@
+./sRead 10:
+207
+real 0m0.116s
+
+
+./sRead 100:
+1644
+real 0m1.105s
+
+./sRead 1000:
+16193
+real 0m10.999s
+
+
+This the CPU is waiting for the return data then the real time is linearly proportional to the number of blocks passed.

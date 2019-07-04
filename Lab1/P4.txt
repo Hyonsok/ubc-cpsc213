@@ -1,0 +1,9 @@
+For the values of four consecutive bytes.
+I tested with 0xFF 0xA0 0x10 0x04
+In the integer value on the big endianness at address 0 is -6287356
+In the integer value on the little endianness at address 0 is 68198655
+
+I also tested with 0x80 0x00 0x00 0x00
+In the integer value on the big endianness at address 0 is -2147483648
+In the integer value on the little endianness at address 0 is 128
+

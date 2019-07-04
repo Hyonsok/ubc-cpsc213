@@ -1,0 +1,34 @@
+./sRead 10:
+207
+real 0m0.116s
+
+./sRead 100:
+1644
+real 0m1.105s
+
+./sRead 1000:
+16193
+real 0m10.999s
+
+
+./aRead 10:
+real 0m0.014s
+
+./aRead 100:
+real 0m0.015s
+
+./aRead 1000:
+real 0m0.016s
+
+
+./tRead 10:
+real 0m0.024s
+
+./tRead 100:
+real 0m0.125s
+
+./tRead 1000:
+real 0m0.084s
+
+There was an increase in system run time due to the two for loops we had to implement and the single for loop in the asynchronous. 
+It takes more time, compared to aRead because of threads

@@ -1,0 +1,5 @@
+phil-rightfork.c: the philosopher get the fork as another philosopher get the fork simultaneously.
+
+phil-ordered.c: the philosophers always get the same forks in the same order.
+
+phil-random.c: the randomly selected philosopher get the fork
